@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/DenSkyline\.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+body:hover {
+  background-image: url(../images/sfoPic.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav {
+  background-color: #01969d;
+  margin-bottom: 40px;
+}
+
+p {
+  font-weight: bold;
+}
+.nav-wrapper {
+  justify-content: center;
+}
+
+a {
+  font-weight: bold;
+}
+
+img {
+  height: 83px;
+  width: 175px;
+}
+
+.card {
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.card-content-aboutus {
+  background-color: #ffd100;
+}
+
+.card-content {
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  height: 250px;
+
+  text-align: center;
+}
+
+.card-action {
+  text-align: center;
+}
+
+.card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  text-shadow: #000000;
+}
+
+.page-footer {
+  background-color: #01969d;
+  top: 100vh;
+  font-weight: bolder;
+}
+.logo {
+  box-shadow: #03393bbe 0px 3px 20px 3px;
+  border: solid #48a9a6;
+}
+.card-img {
+  height: 200px;
+  width: 200px;
+}
+
+.aboutus-card {
+  display: flex;
+  margin-right: auto;
+  text-align: center;
+}

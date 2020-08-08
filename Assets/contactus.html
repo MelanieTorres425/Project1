@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <!-- Local storage JavaScript -->
+    <script src="../scripts/localStorage.js" type="text/javascript"></script>
+
+    <!-- OUR CSS -->
+    <link rel="stylesheet" href="./stylecontactus.css" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <!--Nav Bar-->
+    <nav>
+      <div class="nav-wrapper" style="height: 83px;">
+        <a href="../index.html" class="brand-logo center"
+          ><img src="./TraveLux nav.png" class="logo"
+        /></a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="../index.html"><i class="material-icons">home</i></a>
+          </li>
+          <li>
+            <a href="./aboutus.html"><i class="material-icons">place</i></a>
+          </li>
+          <li>
+            <a href="./contactus.html"
+              ><i class="material-icons">contact_mail</i></a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+      <div class="container">
+        <div class="row">
+          <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <input
+                  required
+                  placeholder="First Name"
+                  id="first_name"
+                  type="text"
+                  class="validate"
+                />
+              </div>
+
+              <div class="input-field col s6">
+                <input
+                  required
+                  placeholder="Last Name"
+                  id="last_name"
+                  type="text"
+                  class="validate"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <input
+                  required
+                  placeholder="Email"
+                  id="email"
+                  type="email"
+                  class="validate"
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <textarea
+                required
+                type="text"
+                placeholder="Message"
+                id="message"
+                name="message"
+                rows="2"
+                class="form-control md-textarea"
+              ></textarea>
+
+              <div class="row">
+                <button
+                  id="submit-btn"
+                  class="btn waves-effect waves-light col s3 m3 l2"
+                  type="submit"
+                  name="action"
+                >
+                  Submit
+                  <i class="material-icons right">send</i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+      <div class="footer-copyright">
+        <div class="container">
+          © 2020 Copyright Text
+          <p class="grey-text text-lighten-4 right">Created by C.H, J.K, M.T</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Moment.js link -->
+  </body>
+</html>

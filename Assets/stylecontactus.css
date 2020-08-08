@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/largeImageSrc.adapt.740.medium.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+
+/* Change the background img on hover to the weather, hotel, rest. cards */
+body:hover {
+  background-image: url(../images/Night-City-View-Tokyo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav {
+  background-color: #01969d;
+  margin-bottom: 40px;
+}
+
+.logo {
+  box-shadow: #03393bbe 0px 3px 20px 3px;
+  border: solid #48a9a6;
+}
+
+img {
+  height: 83px;
+  width: 175px;
+}
+
+.page-footer {
+  background-color: #01969d;
+  font-weight: bolder;
+}
+
+#first_name {
+  background-color: #01959dc0;
+  text-shadow: #000000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+#last_name {
+  background-color: #01959dc0;
+  text-shadow: #000000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+#email {
+  background-color: #01959dc0;
+  text-shadow: #000000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+#message {
+  height: 150px;
+  resize: none;
+  position: relative;
+  background-color: #01959dc0;
+  text-shadow: #000000;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  background-color: #ffd100;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.6);
+}

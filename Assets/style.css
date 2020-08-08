@@ -1,0 +1,281 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url(../images/NSW-3f087f13b1ca31212b82e2f09c384f3d.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+
+/* Change the background img on hover to the weather, hotel, rest. cards */
+body:hover {
+  background-image: url(../images/image001.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  transition: all 1.5s ease-in-out;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+img {
+  height: 83px;
+  width: 175px;
+}
+
+p.h-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+
+p.r-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+}
+p.card-title.main-title {
+  font-size: 45px;
+  text-shadow: #000000;
+}
+
+a.active.hotel {
+  font-weight: bold;
+}
+
+a.active.restaurants {
+  font-weight: bold;
+}
+
+#fiveDay-0 {
+  background-color: #e5eafa;
+  border-radius: 15px;
+}
+
+#fiveDay-1 {
+  background-color: #e5eafa;
+  border-radius: 15px;
+}
+
+#fiveDay-2 {
+  background-color: #e5eafa;
+  border-radius: 15px;
+}
+
+#fiveDay-3 {
+  background-color: #e5eafa;
+  border-radius: 15px;
+}
+
+#fiveDay-4 {
+  background-color: #e5eafa;
+  border-radius: 15px;
+}
+
+nav {
+  background-color: #01969d;
+  margin-bottom: 40px;
+}
+
+.nav-wrapper {
+  justify-content: center;
+}
+
+.main-title {
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500 bolder;
+}
+
+#main-icon {
+  height: 200px;
+  width: 200px;
+}
+
+#current-date {
+  font-size: 1.5em;
+}
+
+#main-temp {
+  font-size: 1.5em;
+}
+
+#main-humidity {
+  font-size: 1.5em;
+}
+
+#main-wind {
+  font-size: 1em;
+}
+
+#main-uv {
+  margin-left: 43%;
+  padding-top: 20px;
+  border-radius: 75%;
+  width: 75px;
+  height: 75px;
+  font-size: 1.5em;
+}
+
+.weather-card {
+  background-color: rgb(22, 154, 241);
+}
+
+.fiveDayText {
+  color: rgb(20, 16, 6);
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-weight: 400 bold;
+  font-size: 30px;
+}
+
+.card-title {
+  border-radius: 50%;
+  background-color: #ffe895;
+}
+
+.card-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600 bold;
+}
+
+.cardZero {
+  background-color: #c6ccb2;
+}
+
+.cardOne {
+  background-color: #c6ccb2;
+}
+
+.cardTwo {
+  background-color: #c6ccb2;
+}
+
+.cardThree {
+  background-color: #c6ccb2;
+}
+
+.cardFour {
+  background-color: #c6ccb2;
+}
+
+.search-bar {
+  background-color: #ffd100;
+  box-shadow: #03393bbe 0px 3px 20px 3px;
+}
+
+.logo {
+  box-shadow: #03393bbe 0px 3px 20px 3px;
+  border: solid #48a9a6;
+}
+
+.weather-card {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  background-color: #01969d;
+}
+
+.main-fiveDay-weather-card {
+  text-align: center;
+  background-color: #ffd00083;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.fiveDay-weather-card {
+  border: black;
+  text-align: center;
+  background-color: #ffd100;
+  justify-content: center;
+}
+
+.fiveDayTemp {
+  font-weight: bolder;
+}
+
+#fiveday-icon-0 {
+  height: 75px;
+  width: 75px;
+}
+
+#fiveday-icon-1 {
+  height: 75px;
+  width: 75px;
+}
+
+#fiveday-icon-2 {
+  height: 75px;
+  width: 75px;
+}
+
+#fiveday-icon-3 {
+  height: 75px;
+  width: 75px;
+}
+
+#fiveday-icon-4 {
+  height: 75px;
+  width: 75px;
+}
+
+#fiveday-date-0 {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+#fiveday-date-1 {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+#fiveday-date-2 {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+#fiveday-date-3 {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+#fiveday-date-4 {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+}
+
+.hotel-card {
+  background-color: #ffd000d0;
+}
+
+.restaurant-card {
+  background-color: #ffd000d0;
+}
+
+.activate {
+  color: #01969d;
+}
+
+.page-footer {
+  background-color: #01969d;
+  font-weight: bolder;
+}
+
+.hide {
+  display: none;
+}
+
+.filter {
+  float: left;
+  z-index: 2;
+  width: 25%;
+}
+
+.select-wrapper input.select-dropdown {
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+#search-section {
+  font-weight: bolder;
+}
